@@ -4,10 +4,16 @@ seav is personal python library to document code projects
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install seav. Please navigate to the repo location in terminal, select your interpreter and then install in editable mode. 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install seav. Please navigate to the repo location in terminal. Then build a wheel distribution.
 
 ```bash
-pip install -e .
+python setup.py sdist bdist_wheel
+```
+
+Then navigate to the new \dist folder and pip install.
+
+```bash
+pip install seav-0.1.0-py3-none-any.whl
 ```
 
 ## Usage
