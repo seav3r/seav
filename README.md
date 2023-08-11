@@ -7,6 +7,7 @@ seav is personal python library to document code projects
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install seav. Please navigate to the repo location in terminal. Then build a wheel distribution.
 
 ```bash
+pip install wheel
 python setup.py sdist bdist_wheel
 ```
 
