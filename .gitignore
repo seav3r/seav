@@ -6,7 +6,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-
 # C extensions
 *.so
 
@@ -134,3 +133,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Visual Studio Code
+.vscode
